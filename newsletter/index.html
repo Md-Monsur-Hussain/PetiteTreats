@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/myjavascript.js"></script>
+	<script type="text/javascript" src="js/validationScript.js"></script>
+</head>
+
+<body>
+
+
+    <div class="wrap">
+    	<h2> Sign Up Here </h2>
+    	<div id="error_alert"></div>
+    	<form action="check.php" method="post" onsubmit = "return val();">
+    		<input type="text" placeholder="Enter Name" name="name" id="name">
+      	<input type="text" placeholder="Enter Email" name="email" id="email">
+      	<input type="text" placeholder="Birthdate: MM-DY e.g., 05-23" name="birth" id="birth">
+        <textarea id="product_interest" placeholder="Product Interests" name="product_interest"></textarea>
+      	<input type="submit" name="submit" value="Sign Up">
+    	</form>
+      	
+    </div>
+
+    <div class="home_btn">
+        <a href="../index.html">Go back to Home</a>
+    </div> 
+
+
+</body>
+
+
+</html>

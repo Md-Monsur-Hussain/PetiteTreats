@@ -1,0 +1,93 @@
+body{
+
+	background-color: #dccaca;
+	background-size: cover;
+	font-family: Arial;
+}
+
+.wrap{
+
+
+	max-width: 350px;
+	margin: auto;
+	padding: 20px;
+	background: #fff;
+	margin-top: 100px;
+	border-radius: 20px;
+}
+
+form{
+
+	margin-top: 50px;
+}
+
+input{
+
+	width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+	box-sizing: border-box;
+	border: 1px solid gray;
+	outline: none;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+h2{
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+	text-align: center;
+}
+input[type = submit]{
+
+	font-size: 16px;
+	margin-top: 30px;
+	color: #fff;
+	font-weight: bold;
+	background: red;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+
+input[type = submit]{
+	background: blue;
+}
+
+#product_interest{
+
+
+	width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+	box-sizing: border-box;
+	border: 1px solid gray;
+	outline: none;
+	border-radius: 5px;
+	font-size: 15px;
+	
+}
+
+.wrap #error_alert{
+
+	margin-bottom: -40px;
+	margin-top: 30px;
+	padding: 0px;
+	background: #ffbebe;
+	text-align: center;
+	font-size: 14px;
+	transition: all 0.5s ease;
+
+}
+
+.home_btn{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.home_btn a{
+	text-decoration: none;
+	font-size: 20px;
+	color: blue;
+	
+}
